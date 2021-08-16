@@ -8,7 +8,7 @@ import sequelize from "./util/database-connection";
 import StudentRoute from "./routes/student-routes";
 import Student from "./models/student-model";
 
-//console.log(Student);
+console.log(Student);
 
 const app = express();
 
