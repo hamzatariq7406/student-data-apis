@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "mocha -r ts-node/register 'tests/*.ts'",
-    "start": "cross-env NODE_ENV=production DATABASE_NAME=task2 DATABASE_FOLDER=root DATABASE_PASSWORD=hamza7406 DATABASE_HOST=localhost ts-node App.ts"
+    "start": "cross-env NODE_ENV=production DATABASE_NAME=ba4wydsu3yus6bh82kg4 DATABASE_FOLDER=ukithdpuu51xyiqm DATABASE_PASSWORD=5R6FhjcXGtYFXzbTqlav DATABASE_HOST=ba4wydsu3yus6bh82kg4-mysql.services.clever-cloud.com ts-node App.ts"
   },
   "author": "",
   "license": "ISC",
