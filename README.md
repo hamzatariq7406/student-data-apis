@@ -1,4 +1,9 @@
-This project includes services to manage university student data. Student data includes first and last name of the student,its email,date of birth and imageUrl. Services required data in JSON format and will return response in the same format.
+This project includes services to manage university student data.
+Services are written in NodeJS using typescript and Express JS.
+Project includes unit tests to test these apis using chai and mocha.
+Incoming data is validated using express-validator.
+MYSQL is used to store student data permanently.
+Sequelize library is used to communicate with database.
 Following are the links to access GET/POST/PUT and DELETE services.
 
 To {GET} data of one student:
