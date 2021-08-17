@@ -45,7 +45,7 @@ sequelize
   .sync()
   .then(() => {
     console.log("Database connected");
-     app.listen("3000", () => {
+     app.listen(process.env.PORT || 3000, () => {
       console.log("Server Connected");
     });
   })

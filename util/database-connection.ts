@@ -1,9 +1,9 @@
 import { Sequelize } from "sequelize";
 
 //connecting to MySql by providing required configuration
-const sequelize: any = new Sequelize("task2", "root", "hamza7406", {
+const sequelize: any = new Sequelize(process.env.DATABASE_NAME, process.env.DATABASE_FOLDER, process.env.DATABASE_PASSWORD, {
   dialect: "mysql",
-  host: "localhost",
+  host: process.env.DATABASE_HOST,
   logging:false
 });
 
